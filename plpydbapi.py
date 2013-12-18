@@ -14,7 +14,7 @@ import time
 ## Module Interface
 
 
-def connect():
+def connect(dsn=None):
     return Connection()
 
 
